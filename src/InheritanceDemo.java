@@ -16,6 +16,12 @@ class VeryAdvancedCalculator extends AdvancedCalculator { // IS-A
   }
 }
 
+/**
+ * Solving the multiple inheritence problem:- When implementing 2 interfaces
+ * with same method name, there will be ambiguity. To solve this problem,
+ * override the method in the child class
+ */
+
 public class InheritanceDemo {
   public static void main(String[] args) {
     VeryAdvancedCalculator c1 = new VeryAdvancedCalculator(); // HAS-A
